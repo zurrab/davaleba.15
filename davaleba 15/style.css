@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: "inter";
+    src: url(./Inter/Inter-Regular.ttf);
+}
+
+
+.text-2{
+font-family: "inter"; 
+margin-top: 24px;
+font-size: 28px;
+}
+
+.box-1{
+    height: 450px;
+    width: 396px;
+    background-color: #ffffff;
+    padding-left: 27px;
+    margin-top: 216px;
+    padding-top: 21px;
+    border-radius: 8px;
+    padding-right: 26px;
+}
+input{
+    font-family: "inter";
+    width: 348px;
+    height: 78px;
+    outline: 0;
+    padding-left: 20px;
+    border-radius: 8px;
+    border-color: #BDB5B5;
+    color: #BDB5B5;
+}
+button{
+    background-color: #1877F2;
+    width: 348px;
+    height: 70px;
+    margin-top: 23px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-family: "inter";
+    font-size: 24px;
+}
+.text-4{
+    margin-top: 20px;
+    margin-left: 139px;
+    font-family: "inter";
+    font-size: 14px;
+}
+.green{
+    width: 204px;
+    height: 51px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #42B72A;
+    margin-left: 99px;
+}
+.text-5{
+    font-family: "inter";
+    font-size: 14px;
+}
+@media only screen and (max-width: 768px)
+{
+    .box-1{ width: 100%;
+    text-align: center;} 
+    .border{width: 100% !important;}
+}
